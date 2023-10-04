@@ -43,6 +43,6 @@ setup(
     long_description=open("README.md", encoding="utf-8").read(),
     zip_safe=False,
     include_package_data=True,
-    python_requires=">=3.6",
+    python_requires=">=3.11",
     install_requires=install_requires(),
 )
